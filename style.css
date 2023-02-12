@@ -1,0 +1,118 @@
+/* *{
+    /* margin: 0px; padding:0pt;
+    color: azure;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+} */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;  
+    background: url('download1.jpg')fixed;
+    background-size: cover;
+    
+}
+
+.navbar{
+    /* font-style: oblique; */
+    height: 100px;
+    box-sizing: border-box;
+    border:3px solid rgb(255, 0, 0);
+    border-radius:4px;
+    background-color: rgba(122, 121, 121, 0.698);
+    /* color:green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    margin-left:25px;
+    cursor:pointer;
+}
+
+nav h1 span{
+    color:rgb(0, 0, 0); 
+    font-style: italic; 
+    font-weight:900 ; 
+}
+
+nav ul {
+    flex:2px;
+    font-size: large;
+    font-style:italic;
+    text-align:center;
+    /* color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display:inline-block;
+    /* float:inline-start; */
+    margin:10px 10px;
+    padding-right:60px;
+}
+
+nav ul li a{
+    text-decoration:underline;
+    font-weight:600;
+    /* border-radius: 2px solid red; */
+    /* text-transform: uppercase; */
+    color:black
+}
+
+nav ul li a:hover{
+    background-color: rgba(14, 239, 6, 0.792);
+    padding: 10px;
+    border-radius:5px;
+    transition:1s;
+}
+.logo{
+    width: 150px;
+    height: 90px;
+    margin-left: 45px;
+    position: relative;
+    left: -80px;
+}
+
+.words{
+    color:rgb(82, 250, 21);
+    padding-top:80px;
+    padding-left:30px;
+    font-style: oblique;
+    font-size:x-large;
+}
+
+.content h2{
+    color:white;
+    padding-top:50px;
+}
+
+.heads{
+    color: rgb(255, 0, 0);
+    padding-top:200px;
+    padding-left:1550px;
+    font-size:xx-large;
+    font-style: italic;
+    font-weight: 780;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.foot{
+    color:black;
+    box-sizing:border-box;
+    border-radius: 5px;
+    border:3px solid red;
+    background-color: grey;
+    height: 37px;
+    text-align:center;
+    justify-content: center;
+    font-weight:800;
+    font-family:sans-serif;
+}
+
+
+
+
